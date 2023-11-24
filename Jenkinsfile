@@ -1,7 +1,7 @@
 pipeline{
     agent {
 
-    label 'jenkins-agent-key2'
+    label 'jenkins-agent'
 }
     
     tools {
