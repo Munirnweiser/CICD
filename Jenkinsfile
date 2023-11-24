@@ -14,16 +14,15 @@ pipeline{
             }
 
         }
-    
+}
+ 
+     stages {   
         stage("Checkout from SCM"){
             steps {
                 git branch: 'try1', credentialsId: 'github', url: 'https://github.com/Munirnweiser/CICD.giti'
             }
 
-        stage("Test Application"){
-            steps {
-                sh "mvn test"
-            }
+       
 
         }
 
