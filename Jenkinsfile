@@ -1,7 +1,7 @@
 pipeline{
     agent {
 
-    label 'Cloud jenkins-agent'
+    label 'jenkins'
 }
     
     tools {
